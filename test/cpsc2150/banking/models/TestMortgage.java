@@ -41,6 +41,7 @@ public class TestMortgage {
         double act_rate = .135;
         double found_rate = m.getRate();
 
+
         assertTrue(abs(act_rate - found_rate) < RATE_ERROR);
     }
 
